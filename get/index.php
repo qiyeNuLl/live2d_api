@@ -1,6 +1,4 @@
 <?php
-header('Access-Control-Allow-Origin:*');
-header('Access-Control-Allow-Methods:POST,GET,OPTIONS,DELETE');
 isset($_GET['id']) ? $id = $_GET['id'] : exit('error');
 
 require '../tools/modelList.php';
